@@ -1,0 +1,29 @@
+{
+  "name": "tickspotv2-api",
+  "version": "1.0.0",
+  "description": "NPM module for Tickspot v2 API",
+  "main": "./lib/tickspot.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frederikbh/tickspotv2-api.git"
+  },
+  "keywords": [
+    "tickspot",
+    "tick"
+  ],
+  "author": "Frederik Hansen <frederikbaun@hotmail.dk>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Frederikbh/tickspotv2-api/issues"
+  },
+  "homepage": "https://github.com/Frederikbh/tickspotv2-api#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "request": "^2.79.0",
+    "underscore": "^1.8.3"
+  }
+}
