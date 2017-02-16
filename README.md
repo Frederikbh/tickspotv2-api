@@ -8,7 +8,7 @@ npm install tickspotv2-api
 
 ## Usage
 
-First, create a new Tickspot object (username and password are only required for getting roles.
+First, create a new Tickspot object (username and password are only required for getting roles).
 
 ```js
 var Tickspot = require('tickspotv2-api');
