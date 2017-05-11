@@ -1,6 +1,6 @@
 {
   "name": "tickspotv2-api",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "NPM module for Tickspot v2 API",
   "main": "./lib/tickspot.js",
   "scripts": {
@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/Frederikbh/tickspotv2-api#readme",
   "dependencies": {
-    "async": "^2.1.4",
     "request": "^2.79.0",
     "underscore": "^1.8.3"
   }
