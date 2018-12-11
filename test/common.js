@@ -1,8 +1,11 @@
 'use strict';
-global.chai   = require( 'chai' );
-global.sinon  = require( 'sinon' );
-global.expect = global.chai.expect;
-const Service = require( '../lib/service' ); 
+const sinonChai = require( 'sinon-chai' );
+const Service   = require( '../lib/service' ); 
+global.chai     = require( 'chai' );
+global.sinon    = require( 'sinon' );
+global.expect   = global.chai.expect;
+
+chai.use(sinonChai);
 
 sinon.stub(Service, 'makeRequest')
 .callsFake((user, auth, url, cb, options = {}, headers = {}) => {
